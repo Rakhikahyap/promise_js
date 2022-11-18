@@ -1,10 +1,18 @@
-// const fruits = new Map();
+// Add Values to the Set
+// const letters = new Set();
+// letters.add("a");
+// letters.add("b");
+// letters.add("c");
+// console.log(letters)
 
-// Set Map Values
-// fruits.set("apples", 500);
-// fruits.set("bananas", 300);
-// fruits.set("oranges", 200);
-// console.log(fruits)
+// const letters = new Set(["a","b","c"]);
+// console.log(letters)
 
-// fruits.set("apples", 200);
-// console.log(fruits)
+const letters = new Set(["a","b","c"]);
+
+// List all Elements
+let text = "";
+letters.forEach (function(value) {
+  text += value;
+})
+console.log(letters)
