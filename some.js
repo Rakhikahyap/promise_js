@@ -1,13 +1,14 @@
-// '''Null - It represents a non-existent or a invalid value'''
-// var z = null;
+// var a =2;
+// var b = 4;
+// var c=a+b;
+// console.log(c)
+
+// let x = 4;
+// let y = 6;
+// let z = 7+8;
 // console.log(z)
 
-// Non primitive
-// var obj1 = {
-//     x:  43,
-//     y:  "Hello world!",
-//     z: function(){
-//        return this.x;
-//     }
-//  }
-// console.log(obj1) 
+// const x = 4;
+// const y = 6;
+// const z = 7+8;
+
