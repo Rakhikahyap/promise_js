@@ -1,3 +1,3 @@
-const fruits = ["Banana", "Orange", "Apple", "Mango"];
-let text = fruits.constructor;
-// console.log(fruits)
+let lang = ['python','js','html'];
+let constructor = lang.constructor;
+console.log(constructor)
